@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import GreetComp from './components/Greet';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
 function App() {
   return (
     <div className="App">
-      <GreetComp name="sandeep"></GreetComp>
+      <Greet name="sandeep"></Greet>
+
+      <Welcome myprops="SandeepClassComp"  name="Ranaji"></Welcome>
     </div>
   );
 }
